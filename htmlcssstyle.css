@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpaperaccess.com/full/2886190.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+aside h2 {
+    color: #fff;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+.login-box {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.login-box h2 {
+    color: #fff;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box form label {
+    margin-bottom: 5px;
+}
+
+.login-box form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.login-box form button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box form p {
+    margin-top: 10px;
+}
+
+.login-box form p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+.content-boxes .box {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.content-boxes .box h3 {
+    margin-top: 0;
+}
+
+.content-boxes .box p {
+    margin-bottom: 10px;
+}
+
+.content-boxes .box a {
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
